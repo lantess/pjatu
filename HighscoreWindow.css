@@ -1,0 +1,23 @@
+AnchorPane{
+    -fx-background-color: linear-gradient(from 50% 0% to 80% 80%, #ADACB5, #2D3142);
+}
+Button.notClicked{
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #ADACB5, #2D3142);
+    -fx-text-fill: #D5B942;
+}
+Button.clicked{
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #2D3142, #ADACB5);
+    -fx-text-fill: #D5B942;
+}
+#exitButton{
+    -fx-background-color: linear-gradient(from 30% 30% to 75% 75%, #BB0A21, #FF4B3E);
+}
+#firstPlace{
+    -fx-fill: gold;
+}
+#secondPlace{
+    -fx-fill: silver;
+}
+#thirdPlace{
+    -fx-fill: brown;
+}

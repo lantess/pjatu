@@ -1,0 +1,16 @@
+Button{
+    -fx-background-color: linear-gradient(from 10% 10% to 75% 75%, #93A8AC, #424B54);
+    -fx-text-fill: #D5B942;
+}
+Button:hover, active{
+    -fx-background-color: linear-gradient(from 10% 10% to 75% 75%, #424B54, #93A8AC);
+}
+#easyButton{
+    -fx-text-fill: #87D68D;
+}
+#mediumButton{
+    -fx-text-fill: #1F487E;
+}
+#hardButton{
+    -fx-text-fill: #BB0A21;
+}
